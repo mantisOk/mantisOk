@@ -1,0 +1,7 @@
+TIMEOUT 5
+setx GPU_FORCE_64BIT_PTR 0
+setx GPU_MAX_HEAP_SIZE 100
+setx GPU_USE_SYNC_OBJECTS 1
+setx GPU_MAX_ALLOC_PERCENT 100
+setx GPU_SINGLE_ALLOC_PERCENT 100
+EthDcrMiner64.exe -epool ssl://eu1.ethermine.org:5555 -ewal 0x8Ae8640b1C11bA6712823FfD2F8725743dFFff8b.home -dpsw c=SMART -dpool stratum+tcp://mine.nlpool.nl:8001 -dwal SRLBe5v21BeGdsNBtEXnPUkxZe1FyryTBj.home -dcoin keccak -tt 73,73,72,70,73,70 -ttdcr 80 -ttli 83 -tstop 90 -dcri 5 -retrydelay 5 -fanmax 50,28,39,36,25,20 -fanmin 45,5,5,5,5,5 -oldkernels 0 -gser 0 -cclock 1150,1200,1130,1160,1140,1200 -powlim 50,50,50,50,50,50 -cvddc 840,825,850,845,850,835 -mvddc 845,835,855,845,855,845 -dbg 1 -ftime 3 -mode 1 -rxboost 20,100,15,35,10,100 -strap 1@2030,1@2100,1@2090,1@2080,2@2000,1@2200 -r 1 -checkcert 0
