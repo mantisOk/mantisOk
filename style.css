@@ -86,3 +86,8 @@ hr {
 input, select {
  vertical-align:middle;
 }
+
+h2 {
+  color:#aaaaaa;
+  background: blue;
+}
