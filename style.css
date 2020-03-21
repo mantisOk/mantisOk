@@ -87,8 +87,17 @@ input, select {
  vertical-align:middle;
 }
 
+@font-face {
+  src: url(fonts/UnforgottenMore1.ttf);
+  font-family: unfor;
+}
 .paragraph {
   font-family: 'Liu Jian Mao Cao', cursive;
 font-size: 40px;
+text-align: center;}
+.paragraph2 {
+font-family: unfor;
+font-size: 60px;
 text-align: center;
+font-weight: 20;
 }
