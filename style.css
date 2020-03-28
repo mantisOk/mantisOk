@@ -117,21 +117,47 @@ background-color: #f3f3f3;
 
 Header {
   background-color: #fff;
-  width: 100%;
+  width: 375px;
   height: 56px;
 
+}
+.logomobile-pos {
+  display: inline-block;
+  background-color: red;
+
+}
+.title-pos {
+  display: inline-block;
+  width: 143px;
+  padding-left: 45px;
+  background-color: lightgreen;
+
+}
+  .phone-pos {
+  display: inline-block;
+  width: 70px;
+  background-color: lightblue;
+  text-align: right;
 
 }
 
-header nav .Title {
-  width: 100px;
+.Title {
   font-family: unf;
   font-size: 50px;
   color: #6F929E;
   font-weight: 160;
-  margin-left: auto;
-  margin-right: auto;
-ul {
+}
+.Logomobile {
+
+}
+.phone {
+   font-family: "patrick";
+    color: #6F929E;
+    font-weight: 160;
+  }
+
+}
+ ul {
   }
 
  header nav ul {
@@ -147,22 +173,14 @@ ul {
 
 
  }
-header nav .telephone {
 
-/*  font-family: "patrick";
-  color: #6F929E;
-  font-weight: 160;*/
-}
 
-.toggle {
+/*.toggle {
   font-size: 20px;
   padding: 0px 3px 0px;
-}
-
-.Logomobile {
+}*/
 
 
-}
 
 .toggle {
 }
@@ -170,7 +188,7 @@ header nav .telephone {
 
 /*Section 1 Some sort of MG one*/
 
-main section {
+/*main section {
 width: 100%;
 height: 100vh;
 
