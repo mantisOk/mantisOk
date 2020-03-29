@@ -122,8 +122,8 @@ background-color: #f3f3f3;
 
 Header {
   background-color: #fff;
-  width: 375px;
   height: 63px;
+  width: 100%;
 
 }
 .logomobile-pos {
@@ -201,7 +201,6 @@ Header {
 
 /*Section 1 Mustard*/
 .sec1-banner {
-  width:100%;
 }
 
 .sec1-Text-pos {
@@ -217,13 +216,11 @@ Header {
   font-family: comic;
 
 
-
 }
 .sec1-discover-pos {
 
   padding-top: 15px;
   b ackground:red;
-  width: 100%;
   text-align: center;
   transition: 0.8s;
 }
@@ -253,11 +250,10 @@ section .sec1-dis {
 
 .sec3-divbox {
   align-content: center;
-position: absolute;
-bottom: 45px;
-right:103px;
+position: relative;
+bottom: 290px;
+left:110px;
 width: 45%;
-height: 80px;
 background-color: #f3f3f3;
 padding-top: 15px;
 transition: 0.8s;
@@ -285,8 +281,8 @@ font-size:16px;
 /*Section 4 Kohlrabi*/
 
 .sec4box {
-  position:absolute;
-  bottom:-700px;
+  position:relative;
+  bottom: 60px;
 text-align: center;
 background-color:white;
 height: 60px;
