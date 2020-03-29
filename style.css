@@ -101,14 +101,19 @@ input, select {
   text-decoration: none;
 }
 
-@font-face {
+  @font-face {
   src: url(fonts/UnforgottenMore1.ttf);
   font-family: unf;
 }
-@font-face {
+  @font-face {
   src: url(fonts/PatrickHand-Regular.ttf);
   font-family: patrick;
 }
+  @font-face {
+  src: url()fonts/ComicNeue-Regular.ttf);
+  font-family: comic;
+}
+
 
 
 body {
@@ -118,26 +123,36 @@ background-color: #f3f3f3;
 Header {
   background-color: #fff;
   width: 375px;
-  height: 56px;
+  height: 63px;
 
 }
 .logomobile-pos {
   display: inline-block;
-  background-color: red;
+  vertical-align: top;
+  padding-top: 5px;
+  padding-left: 38px;
+  b ackground-color: red;
 
 }
 .title-pos {
   display: inline-block;
-  width: 143px;
-  padding-left: 45px;
-  background-color: lightgreen;
+  padding-top:11px;
+  width: 130px;
+  text-align: center;
+  vertical-align: top;
+  b ackground-color: blue;
+
 
 }
   .phone-pos {
   display: inline-block;
+  padding-top: 25px;
+  padding-left: 10px;
   width: 70px;
-  background-color: lightblue;
   text-align: right;
+  vertical-align: top;
+  b ackground-color: green;
+
 
 }
 
@@ -147,9 +162,7 @@ Header {
   color: #6F929E;
   font-weight: 160;
 }
-.Logomobile {
 
-}
 .phone {
    font-family: "patrick";
     color: #6F929E;
@@ -186,17 +199,112 @@ Header {
 }
 
 
-/*Section 1 Some sort of MG one*/
+/*Section 1 Mustard*/
 
-/*main section {
-width: 100%;
-height: 100vh;
+
+.sec1-Text-pos {
+  padding-top: 5px;
+  text-align: center;
+  b ackground-color: green;
+  text-spacing: 1px;
+}
+.sec1-text {
+  color:#48AB44;
+  font-weight:600;
+  font-size: 24px;
+  font-family: comic;
+
+
 
 }
-.MG1-banner {
+.sec1-discover-pos {
+
+  padding-top: 15px;
+  b ackground:red;
+  width: 100%;
+  text-align: center;
+  transition: 0.8s;
+}
+section .sec1-dis  {
+  display: inline-block;
+  width: 45%;
+  height: 28px;
+  text-align:top;
+  padding-top:13px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size:14px;
+}
+section .sec1-dis {
+  color:#f1f1f1;
+  background:#48AB44;
+  /*box-shadow: 0 0 10px #48E946,0 0 20px #48E946,0 0 30px #48E946;*/
+  }
+
+
+
+/*Section 2-3 Amaranth*/
+
+.sec2-pos{
+  margin-top: 15px;
+}
+
+.sec3-divbox {
+  align-content: center;
+position: absolute;
+bottom: 45px;
+right:103px;
+width: 45%;
+height: 80px;
+background-color: #f3f3f3;
+padding-top: 15px;
+transition: 0.8s;
+}
+.sec3-text {
+margin-left: 27px;
+font-family: comic;
+font-size: 24px;
+height: 10px;
+b ackground-color: red;
+color:#FF1956;
+font-weight: 900;
 
 }
-.MG1-text {
-  font-size: 40px;
+.sec3-dis {
+  b ackground-color: green;
+  padding-top: 20px;
+  text-align: center;
+  color:black;
+font-weight:600;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size:16px;
+}
+/*Section 4 Kohlrabi*/
 
+.sec4box {
+  position:absolute;
+  bottom:-700px;
+text-align: center;
+background-color:white;
+height: 60px;
+width: 140px;
+margin-bottom: -10px;
+}
+
+.sec4-text {
+  font-family: comic;
+  font-size: 24px;
+  color:#FF45E4;
+  font-weight: 900;
+}
+
+.sec4-dis {
+  padding-top: 2px;
+  text-align: center;
+  color:black;
+font-weight:600;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size:16px;
 }
