@@ -252,13 +252,14 @@ section .sec1-dis {
   align-content: center;
 position: relative;
 bottom: 290px;
-left:110px;
+left:100px;
 width: 45%;
 background-color: #f3f3f3;
 padding-top: 15px;
 transition: 0.8s;
 }
 .sec3-text {
+  padding-top:10px;
 margin-left: 27px;
 font-family: comic;
 font-size: 24px;
@@ -270,7 +271,8 @@ font-weight: 900;
 }
 .sec3-dis {
   b ackground-color: green;
-  padding-top: 20px;
+  margin-top: 15px;
+  padding-bottom: 20px;
   text-align: center;
   color:black;
 font-weight:600;
@@ -285,9 +287,7 @@ font-size:16px;
   bottom: 60px;
 text-align: center;
 background-color:white;
-height: 60px;
 width: 140px;
-margin-bottom: -10px;
 }
 
 .sec4-text {
@@ -305,4 +305,8 @@ font-weight:600;
 text-transform: uppercase;
 letter-spacing: 1px;
 font-size:16px;
+}
+
+/*Section 5 Mix*/
+.sec5-box {
 }
