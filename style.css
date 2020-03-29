@@ -200,7 +200,9 @@ Header {
 
 
 /*Section 1 Mustard*/
-
+.sec1-banner {
+  width:100%;
+}
 
 .sec1-Text-pos {
   padding-top: 5px;
