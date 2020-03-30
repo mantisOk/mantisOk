@@ -122,7 +122,6 @@ background-color: #f3f3f3;
 
 Header {
   background-color: #fff;
-  height: 63px;
   width: 100%;
 
 }
@@ -215,10 +214,8 @@ Header {
   font-size: 24px;
   font-family: comic;
 
-
 }
 .sec1-discover-pos {
-
   padding-top: 15px;
   b ackground:red;
   text-align: center;
@@ -235,6 +232,7 @@ letter-spacing: 1px;
 font-size:14px;
 }
 section .sec1-dis {
+  width: 100%;
   color:#f1f1f1;
   background:#48AB44;
   /*box-shadow: 0 0 10px #48E946,0 0 20px #48E946,0 0 30px #48E946;*/
@@ -245,11 +243,9 @@ section .sec1-dis {
 /*Section 2-3 Amaranth*/
 
 .sec2-pos{
-  margin-top: 15px;
 }
 
 .sec3-divbox {
-  align-content: center;
 position: relative;
 bottom: 290px;
 left:100px;
@@ -271,7 +267,6 @@ font-weight: 900;
 }
 .sec3-dis {
   b ackground-color: green;
-  margin-top: 15px;
   padding-bottom: 20px;
   text-align: center;
   color:black;
@@ -283,14 +278,13 @@ font-size:16px;
 /*Section 4 Kohlrabi*/
 
 .sec4box {
-  position:relative;
-  bottom: 60px;
+  width: 100%;
 text-align: center;
-background-color:white;
-width: 140px;
+b ackground-color:blue;
 }
 
 .sec4-text {
+  display: relative;
   font-family: comic;
   font-size: 24px;
   color:#FF45E4;
@@ -298,15 +292,17 @@ width: 140px;
 }
 
 .sec4-dis {
-  padding-top: 2px;
+  padding-top:10px;
+  b ackground-color: red;
   text-align: center;
   color:black;
-font-weight:600;
+font-weight:900;
 text-transform: uppercase;
-letter-spacing: 1px;
-font-size:16px;
+font-size: 18px;
+color:#black;
 }
 
 /*Section 5 Mix*/
 .sec5-box {
+
 }
