@@ -246,16 +246,18 @@ section .sec1-dis {
 }
 
 .sec3-divbox {
-position: relative;
-bottom: 290px;
-left:100px;
+  display: block;
+  position: absolute;
+  right: 28%;
+  top:660px;
 width: 45%;
 background-color: #f3f3f3;
-padding-top: 15px;
+padding-top: 10px;
 transition: 0.8s;
 }
 .sec3-text {
-  padding-top:10px;
+  display: block;
+  margin-bottom: 25px;
 margin-left: 27px;
 font-family: comic;
 font-size: 24px;
@@ -277,14 +279,38 @@ font-size:16px;
 }
 /*Section 4 Kohlrabi*/
 
-.sec4box {
-  width: 100%;
+
+.sec4box p {
+position: absolute;
+display: inline-block;
+top: 1450px;
 text-align: center;
-b ackground-color:blue;
+width: 45%;
+font-family: comic;
+font-weight: 900;
+background-color: white;
+}
+.kohlrabi-text {
+  color:#FF45E4;
+  font-size: 30px;
+  b ackground-color: blue;
+}
+.findout {
+  display: inline-block;
+  display: block;
+  color:black;
+  height: 50px;
+  font-size: 20px;
+  color: black;
+  margin-top: 35px;
+  height: 22px;
+  b ackground-color: red;
+
 }
 
-.sec4-text {
-  display: relative;
+/*.sec4-text {
+  display: block;
+  background-color: blue;
   font-family: comic;
   font-size: 24px;
   color:#FF45E4;
@@ -292,8 +318,7 @@ b ackground-color:blue;
 }
 
 .sec4-dis {
-  padding-top:10px;
-  b ackground-color: red;
+  background-color: red;
   text-align: center;
   color:black;
 font-weight:900;
@@ -306,3 +331,5 @@ color:#black;
 .sec5-box {
 
 }
+
+.sec4-banner {
