@@ -147,7 +147,7 @@ Header {
   display: inline-block;
   padding-top: 25px;
   padding-left: 10px;
-  width: 70px;
+  width: 75px;
   text-align: right;
   vertical-align: top;
   b ackground-color: green;
@@ -285,7 +285,7 @@ position: absolute;
 display: inline-block;
 top: 1450px;
 text-align: center;
-width: 45%;
+width: 48%;
 font-family: comic;
 font-weight: 900;
 background-color: white;
@@ -333,3 +333,10 @@ color:#black;
 }
 
 .sec4-banner {
+
+
+}
+
+.howtogrowbanner {
+  width:100%;
+}
