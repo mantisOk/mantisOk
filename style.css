@@ -95,7 +95,6 @@ input, select {
 
 
 /*my code*/
-/*Header*/
 
 * {
   text-decoration: none;
@@ -120,6 +119,7 @@ body {
 background-color: white;
 }
 
+/*Navigation*/
 nav {
   display: flex;
   flex-direction: raw;
@@ -190,88 +190,60 @@ height: 3px;
 margin: 4px;
 background-color: Lightgrey;
 }
+/*Header*/
+header {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
 
-  @media screen and (max-width:720px){
-    body {
-      overflow-x: hidden;
-    }
-    .nav-links {
-      flex-basis: 60%;
-    }
-    .title {
-    }
 }
-    @media screen and (max-width:460px){
-      nav {
-        justify-content: space-between;
-      }
-      .title {
-        flex-basis: 35%;
-        padding-left:10%;
-      }
-      .logo {
-        display: none;
-      }
-      .burger {
-        margin-left: 10px;
-      }
-      .phone {
-        font-size: 20px;
-      }
-.nav-links {
-  position: absolute;
-  left: 0px;
-  height: 250px;
-  top: 85px;
+
+.head {
+background-color: yellow;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 30%;
-  background-color:rgba(255,245,238,0.5);
-  transform: translateX(-100%);
-  transition: transform 0.3s ease-in;
 }
-.nav-links li a {
-  font-size: 15px;
+
+.text-head {
+flex-basis: 45%;
+margin-top:15%;
+
 }
-.burger {
-  display: block;
+.text-head h1 {
+  text-align: center;
+  width: 80%;
+  height: 70%;
+  font-size: 35px;
+  background-color: blue;
+}
+
+ .pic-head img {
+   max-width: 95%;
  }
 
-
-.nav-active {
-    transform: translateX(0%);
-}
-
-
-/*Section 1 Mustard*/
-.sec1-banner {
-}
-
-.mustard-pic {
+.m ustard-pic {
   max-width: 100%;
  height: auto;
 }
-.sec1-Text-pos {
+.s ec1-Text-pos {
   padding-top: 5px;
   text-align: center;
   background-color: green;
   text-spacing: 1px;
 }
-.sec1-text {
+.s ec1-text {
   color:#48AB44;
   font-weight:600;
   font-size: 24px;
   font-family: comic;
 
 }
-.sec1-discover-pos {
+.s ec1-discover-pos {
   padding-top: 15px;
   background:blue;
   text-align: center;
   transition: 0.8s;
 }
-section .sec1-dis  {
+s ection .sec1-dis  {
   display: inline-block;
   width: 45%;
   height: 28px;
@@ -282,7 +254,7 @@ letter-spacing: 1px;
 font-size:14px;
 }
 
-section .sec1-dis {
+s ection .sec1-dis {
   width: 100%;
   color:#f1f1f1;
   background:#48AB44;
@@ -292,7 +264,7 @@ section .sec1-dis {
 
 
 /*Section 2-3 Amaranth*/
-
+/*
 .sec2-pos{
 }
 
@@ -330,7 +302,7 @@ font-size:16px;
 }
 /*Section 4 Kohlrabi*/
 
-
+/*
 .sec4box p {
 position: absolute;
 display: inline-block;
@@ -378,7 +350,7 @@ font-size: 18px;
 color:#black;
 }
 
-/*Section 5 Mix*/
+/*Section 5 Mix
 .sec5-box {
 
 }
@@ -390,4 +362,94 @@ color:#black;
 
 .howtogrowbanner {
   width:100%;
+}
+*/
+@media screen and (max-width:1200px){
+  .text-head h1 {
+font-size: 30px;
+ }
+@media screen and (max-width:1000px){
+  header {
+  margin: 10px;
+}
+  .head {
+  display:inline;
+  background-color: yellow;
+  padding: 0;
+
+  }
+
+  .text-head {
+    margin: 0 0;
+    padding:0 0;
+
+  }
+  .text-head h1 {
+    padding: 0;
+    height: 17%;
+    width: 100%;
+  }
+
+   .pic-head img {
+     max-width: 100%;
+   }
+}
+
+  @media screen and (max-width:720px){
+    body {
+      overflow-x: hidden;
+    }
+    .nav-links {
+      flex-basis: 60%;
+    }
+    .title {
+    }
+    .text-head h1 {
+      font-size: 22px;
+    }
+}
+    @media screen and (max-width:460px){
+      nav {
+        justify-content: space-between;
+      }
+      .title {
+        flex-basis: 35%;
+        padding-left:13%;
+      }
+      .logo {
+        display: none;
+      }
+      .burger {
+        margin-left: 10px;
+      }
+      .phone {
+        font-size: 20px;
+      }
+.nav-links {
+  position: absolute;
+  left: 0px;
+  height: 250px;
+  top: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  background-color:rgba(255,245,238,0.5);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in;
+}
+.nav-links li a {
+  font-size: 15px;
+}
+.burger {
+  display: block;
+ }
+
+
+.nav-active {
+    transform: translateX(0%);
+}
+.text-head h1 {
+  font-size: 18px;
+}
 }
