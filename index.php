@@ -29,29 +29,46 @@
                   <li><a href="Contacts.html">Contacts</a> </li>
               </ul>
           </nav>
-          </body>
           <script src="app.js"></script>
 <!--Header!-->
 <main>
-<a href="construction.html">
-  <picture>
-    <source media="(min-width: 1050px)"
-            srcset= "images/MustardLarge1602.jpg 1602w">
-    <source media="(min-width:700px)"
-            srcset= "images/MustardMedium1422.jpg 1422w,
-            images/MustardSmall819.jpg 819w">
-    <source srcset= "images/MustardSmall819.jpg 819w">
-       <img src="images/MustardSmall819.jpg" alt="Mustard microgreens">
-</picture>
-</a>
-</section>
+  <header class="head">
+    <div class="pic-head">
+      <picture class="intro-img">
+        <source media="(min-width: 1050px)"
+                srcset= "images/MustardLarge1602.jpg 1602w">
+        <source media="(min-width:700px)"
+                srcset= "images/MustardMedium1422.jpg 1422w,
+                images/MustardSmall819.jpg 819w">
+        <source srcset= "images/MustardSmall819.jpg 819w">
+           <img src="images/MustardSmall819.jpg" alt="Mustard microgreens">
+    </picture>
+    </div>
+<div class="text-head">
+  <h1> dolore eu fugiat nulla pariatur.<br> fugiat nulla pariatur.fugiat</h1>
+</div>
+</header>
+    <!--<div class="head-pic">
+      <a href="construction.html">
+      <!--<picture class="head-img">
+        <source media="(min-width: 1050px)"
+                srcset= "images/MustardLarge1602.jpg 1602w">
+        <source media="(min-width:700px)"
+                srcset= "images/MustardMedium1422.jpg 1422w,
+                images/MustardSmall819.jpg 819w">
+        <source srcset= "images/MustardSmall819.jpg 819w">
+           <img src="images/MustardSmall819.jpg" alt="Mustard microgreens">
+    </picture>
+    </a>
+    </div>
 <section class="sec1-Text-pos">
   <a href="construction.html"><p class="sec1-text">Mustard microgreens</p></a>
 </section>
 <section class="sec1-discover-pos">
   <a href="construction.html"> <p class="sec1-dis">Discover Now</p></a>
 </section>
-<!--section2!-->
+</header>
+<!--section2!
 <a href="construction.html">
 <picture>
   <source media="(min-width: 1050px)"
@@ -65,7 +82,7 @@
 </picture>
 </a>
 
-  <!--section3!-->
+  <!--section3!
   <a href="construction.html">
   <picture>
     <source media="(min-width: 1050px)"
@@ -82,7 +99,7 @@
     <p class="sec3-text">Amaranth</p>
       <a href="construction.html"><p class="sec3-dis">DISCOVER MORE</p></a>
 </div>
-<!--section4!-->
+<!--section4!
 <a href="construction.html">
 <picture>
   <source media="(min-width: 1050px)"
@@ -97,7 +114,7 @@
 </a>
   <p class="kohlrabi-text">Kohlrabi </p>
   <a href="construction.html"><p class="findout">FIND OUT MORE</p> </a>
-<!--section5!-->
+<!--section5!
 <a href="construction.html">
 <picture>
   <source media="(min-width: 1050px)"
@@ -112,5 +129,6 @@
 </a>
 <footer>
 </footer>
+!-->
           </body>
           </html>
